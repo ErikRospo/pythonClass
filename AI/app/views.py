@@ -49,4 +49,3 @@ def upload_file():
             return render_template("index.html",title="Home",form=form)
     else:
         return render_template("index.html",title="Home",form=form)
-pass
